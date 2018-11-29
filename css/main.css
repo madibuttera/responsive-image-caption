@@ -43,16 +43,15 @@ h2 {
     line-height: 1.4;
   }
 
-  .img-flex {
+  .card {
     position: relative;
   }
 
   .box {
     background-color: rgba(0, 0, 0, .3);
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-25%, -135%);
+    bottom: 1em;
+    right: 1em;
     border-radius: 10px;
     color: #fff;
     width: 60%;
