@@ -23,6 +23,7 @@ body {
 
 h2 {
   font-family: "Denk One", sans-serif;
+  font-size: 1.5rem;
 }
 
 .img-flex {
@@ -38,8 +39,22 @@ h2 {
 @media only screen and (min-width: 38em) {
 
   html {
-    width: 110%;
-    line: 1.4;
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .img-flex {
+    position: relative;
+  }
+
+  .box {
+    background-color: rgba(0, 0, 0, .3);
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    color: #fff;
   }
 
 }
@@ -47,18 +62,17 @@ h2 {
 @media only screen and (min-width: 60em) {
 
   html {
-    width: 120%;
+    font-size: 120%;
     line-height: 1.5;
   }
-
 
 }
 
 @media only screen and (min-width: 90em) {
 
   html {
-    width: 130%;
-    line-height: 1.5;
+    font-size: 130%;
+    font-size: 1.5rem;
   }
 
 }
