@@ -17,18 +17,30 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 h2 {
-  font-family: Denk One, sans-serif;
+  font-family: "Denk One", sans-serif;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+.box {
+  background-color: #e2e2e2;
+  padding: .5rem;
 }
 
 @media only screen and (min-width: 25em) {
 
 
-
 }
 
 @media only screen and (min-width: 38em) {
-
 
 
 }
